@@ -1,0 +1,22 @@
+{
+  "model": "c10_dino_base",
+  "ablation": "no_reverse",
+  "run_dir": "/data2/tangyangpu/WorkSpace/RS/model/best/c10_dino_base/experiments/vaihingen_ablation/no_reverse",
+  "dataset": "vaihingenR",
+  "data_root": "/data2/tangyangpu/WorkSpace/RS/datasets/vaihingenR",
+  "pretrained": null,
+  "dino_pretrained": "/data2/tangyangpu/WorkSpace/RS/pretrained/round12/convnext_base.dinov3_lvd1689m/model.safetensors",
+  "best_checkpoint": null,
+  "epochs": 105,
+  "batch_size": 4,
+  "prior_record": null,
+  "val_batch_size": 2,
+  "workers": 4,
+  "seed": 42,
+  "attempt": 1,
+  "smoke": false,
+  "data_exclusions": {
+    "train": {},
+    "test": {}
+  }
+}

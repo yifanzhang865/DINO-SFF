@@ -1,0 +1,16 @@
+{
+  "model": "c10_dino_base",
+  "run_dir": "/data2/tangyangpu/WorkSpace/RS/model/GLF-Round12/runs/round12_vaihingen_105e_bs4_seed42/c10_dino_base/attempt_1",
+  "data_root": "/data2/tangyangpu/WorkSpace/RS/datasets/vaihingenR",
+  "pretrained": "/data2/tangyangpu/WorkSpace/RS/pretrained/vHeat_base.pth",
+  "dino_pretrained": "/data2/tangyangpu/WorkSpace/RS/pretrained/dinov3_convnext_tiny/model.safetensors",
+  "best_checkpoint": "/data2/tangyangpu/WorkSpace/RS/checkpoint/round12/round12_vaihingen_105e_bs4_seed42/c10_dino_base/attempt_1/best_model.pth",
+  "epochs": 105,
+  "batch_size": 4,
+  "prior_record": "/data2/tangyangpu/WorkSpace/RS/model/GLF-Round12/runs/round12_vaihingen_105e_bs4_seed42/c10_dino_base/attempt_1/prior.json",
+  "val_batch_size": 2,
+  "workers": 4,
+  "seed": 42,
+  "attempt": 1,
+  "smoke": false
+}

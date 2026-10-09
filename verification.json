@@ -1,0 +1,14 @@
+[
+  {
+    "dataset": "vaihingenR",
+    "strict_load": true,
+    "all_outputs_bitwise_equal": true,
+    "backward_finite": true
+  },
+  {
+    "dataset": "potsdamR",
+    "strict_load": true,
+    "all_outputs_bitwise_equal": true,
+    "backward_finite": true
+  }
+]

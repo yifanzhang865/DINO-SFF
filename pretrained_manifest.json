@@ -1,0 +1,20 @@
+[
+  {
+    "repo": "timm/convnext_base.dinov3_lvd1689m",
+    "revision": "8e953102486d832f58e073cb4080f04001bb71ca",
+    "sha256": "afa69ae6094b5b04a48810de78c52c92d4cbb6d9436462f07bf36defb09e26c1",
+    "bytes": 350300064,
+    "source": "https://huggingface.co/timm/convnext_base.dinov3_lvd1689m/tree/8e953102486d832f58e073cb4080f04001bb71ca",
+    "license": "other",
+    "path": "/data2/tangyangpu/WorkSpace/RS/pretrained/round12/convnext_base.dinov3_lvd1689m/model.safetensors"
+  },
+  {
+    "repo": "timm/convnext_small.dinov3_lvd1689m",
+    "revision": "9a0c319ae4531d36df6ef11fc253fdc4b503628a",
+    "sha256": "d6888643d396f63c881f8658418609d6f8b98cc37653ee074b3b6769e4059ef5",
+    "bytes": 197852680,
+    "source": "https://huggingface.co/timm/convnext_small.dinov3_lvd1689m/tree/9a0c319ae4531d36df6ef11fc253fdc4b503628a",
+    "license": "other",
+    "path": "/data2/tangyangpu/WorkSpace/RS/pretrained/round11/convnext_small.dinov3_lvd1689m/model.safetensors"
+  }
+]

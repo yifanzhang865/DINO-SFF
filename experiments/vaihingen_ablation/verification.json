@@ -1,0 +1,44 @@
+[
+  {
+    "ablation": "none",
+    "parameters": 89437565,
+    "loss": 9.171615600585938,
+    "finite_gradients": true
+  },
+  {
+    "ablation": "no_adapter",
+    "parameters": 89114357,
+    "loss": 4.808991432189941,
+    "finite_gradients": true
+  },
+  {
+    "ablation": "no_sampling",
+    "parameters": 89398765,
+    "loss": 4.812301158905029,
+    "finite_gradients": true
+  },
+  {
+    "ablation": "no_scale_route",
+    "parameters": 89390713,
+    "loss": 4.817557334899902,
+    "finite_gradients": true
+  },
+  {
+    "ablation": "no_exchange",
+    "parameters": 89399151,
+    "loss": 4.829773902893066,
+    "finite_gradients": true
+  },
+  {
+    "ablation": "no_reverse",
+    "parameters": 89422013,
+    "loss": 4.5566511154174805,
+    "finite_gradients": true
+  },
+  {
+    "ablation": "no_detail",
+    "parameters": 89341461,
+    "loss": 4.2281904220581055,
+    "finite_gradients": true
+  }
+]

@@ -1,0 +1,32 @@
+# Local environments and editor/agent state
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.codex/
+.agents/
+.vscode/
+.idea/
+# Datasets, generated tensors and model weights (distributed separately)
+data/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+state_outputs/
+outputs/
+# Generated predictions and transient process files
+*.log
+*.pid
+*.lock
+*.tmp
+experiments/**/shard_*/
+experiments/**/process.json
+experiments/**/launch.json
+experiments/**/progress.json
+experiments/**/smoke_*/
+tta_d4_results/

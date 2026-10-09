@@ -1,0 +1,6 @@
+{
+  "training_entry": "passed: real batch4, best save/reload and TTA",
+  "vaihingen_test_entry": "passed: 24-way TTA",
+  "potsdam_test_entry": "passed: 24-way TTA",
+  "gpu": "3"
+}

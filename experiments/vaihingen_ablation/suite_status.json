@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "finished_at": "2026-10-08T13:29:02+00:00",
+  "experiments": {
+    "baseline": "completed",
+    "no_adapter": "completed",
+    "no_sampling": "completed",
+    "no_scale_route": "completed",
+    "no_exchange": "completed",
+    "no_reverse": "completed",
+    "no_detail": "completed"
+  }
+}

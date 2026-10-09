@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "finished_at": "2026-10-09T03:30:27+00:00",
+  "glf_sources": {
+    "vaihingen": {
+      "path": "/data2/tangyangpu/WorkSpace/RS/model/GLF-Net-main/GLF-Net-main/vaihingen_test.py",
+      "sha256": "87b5e98a7ca9335c45b6774fc37acb20902a01fbbb2e3689da0f3af79ded02e7"
+    },
+    "potsdam": {
+      "path": "/data2/tangyangpu/WorkSpace/RS/model/GLF-Net-main/GLF-Net-main/potsdam_test.py",
+      "sha256": "f5422457f4e6bc8407a1ead82fe45c99e708e203c11feb49bd80e444e105b1a9"
+    }
+  }
+}

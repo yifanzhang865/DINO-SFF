@@ -1,0 +1,40 @@
+{
+  "case": "train_512_bs4",
+  "measured_at": "2026-10-09T02:48:20+00:00",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "cuda_visible_devices": "4",
+  "torch_version": "2.1.2+cu118",
+  "cuda_version": "11.8",
+  "cudnn_version": 8700,
+  "precision": "FP32",
+  "cudnn_allow_tf32": true,
+  "matmul_allow_tf32": false,
+  "batch": 4,
+  "input_shape": [
+    4,
+    3,
+    512,
+    512
+  ],
+  "parameters": 89437565,
+  "trainable_parameters": 89437565,
+  "parameter_bytes": 357750260,
+  "buffer_bytes": 0,
+  "checkpoint_bytes": 357927306,
+  "checkpoint_sha256": "39a13d7eccf921cb8ef2f633d5eac01163adfc06e8ea32eb782c82c10f5deb20",
+  "scope": "forward + loss + backward + clipping + Lookahead AdamW step",
+  "allocated_before_mib": 1401.591796875,
+  "reserved_before_mib": 1670.0,
+  "peak_allocated_mib": 9114.16943359375,
+  "peak_reserved_mib": 9664.0,
+  "median_ms": 414.03020918369293,
+  "iteration_ms": [
+    443.6757266521454,
+    413.9467924833298,
+    414.03020918369293,
+    431.691512465477,
+    411.38289868831635
+  ],
+  "warmup_iterations": 2,
+  "measured_iterations": 5
+}

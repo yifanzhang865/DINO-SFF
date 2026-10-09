@@ -1,0 +1,152 @@
+{
+  "OA": 0.9418135310856817,
+  "mIoU": 0.8650790210104005,
+  "mF1": 0.9261525238630576,
+  "mDice": 0.9261525238630576,
+  "mPrecision": 0.9216288124662076,
+  "mRecall": 0.9308825556546507,
+  "mAcc": 0.9308825556546507,
+  "mIoU6": 0.7896561892993516,
+  "mF1_6": 0.8691459245510386,
+  "FWIoU": 0.8927267972654344,
+  "Kappa": 0.9161102819199057,
+  "confusion_matrix": [
+    [
+      49527051,
+      410633,
+      797467,
+      163925,
+      58302,
+      3313
+    ],
+    [
+      400507,
+      21295423,
+      217120,
+      27054,
+      6664,
+      2640
+    ],
+    [
+      532262,
+      166196,
+      14858381,
+      1806871,
+      1398,
+      5677
+    ],
+    [
+      135180,
+      29146,
+      1193882,
+      17152128,
+      843,
+      919
+    ],
+    [
+      45047,
+      8018,
+      704,
+      1227,
+      740101,
+      336
+    ],
+    [
+      150235,
+      230830,
+      9430,
+      1023,
+      10011,
+      291022
+    ]
+  ],
+  "per_class": [
+    {
+      "name": "ImSurf",
+      "IoU": 0.9483594702060102,
+      "F1": 0.973495378761636,
+      "Dice": 0.973495378761636,
+      "Precision": 0.975128490131242,
+      "Recall": 0.9718677284026623,
+      "support": 50960691
+    },
+    {
+      "name": "Building",
+      "IoU": 0.9342461695680806,
+      "F1": 0.966005448806652,
+      "Dice": 0.966005448806652,
+      "Precision": 0.9618422035599785,
+      "Recall": 0.970204891175197,
+      "support": 21949408
+    },
+    {
+      "name": "LowVeg",
+      "IoU": 0.7584913321437097,
+      "F1": 0.8626614397002024,
+      "Dice": 0.8626614397002024,
+      "Precision": 0.870082269796587,
+      "Recall": 0.8553661219110132,
+      "support": 17370785
+    },
+    {
+      "name": "Tree",
+      "IoU": 0.8361916163250764,
+      "F1": 0.9107890580598734,
+      "Dice": 0.9107890580598734,
+      "Precision": 0.8955682858412086,
+      "Recall": 0.9265361494953193,
+      "support": 18512098
+    },
+    {
+      "name": "Car",
+      "IoU": 0.8481065168091253,
+      "F1": 0.9178112939869242,
+      "Dice": 0.9178112939869242,
+      "Precision": 0.9055228130020224,
+      "Recall": 0.9304378872890614,
+      "support": 795433
+    },
+    {
+      "name": "Clutter",
+      "IoU": 0.41254203074410717,
+      "F1": 0.5841129279909439,
+      "Dice": 0.5841129279909439,
+      "Precision": 0.9576021611874685,
+      "Recall": 0.42021742803057105,
+      "support": 692551
+    }
+  ],
+  "evaluation_seconds": 264.544228233397,
+  "images_per_second": 0.4271497463944083,
+  "milliseconds_per_image": 2341.0993648973185,
+  "peak_cuda_memory_mib": 1396.79150390625,
+  "images": 113,
+  "transforms": 24,
+  "scales": [
+    0.75,
+    1.0,
+    1.5
+  ],
+  "merge": "mean logits",
+  "macro_classes": [
+    "ImSurf",
+    "Building",
+    "LowVeg",
+    "Tree",
+    "Car"
+  ],
+  "ignore_label": 6,
+  "saved_prediction_images": false,
+  "prediction_directory": null,
+  "prediction_format": null,
+  "model": "c10_dino_base",
+  "ablation": "no_exchange",
+  "seed": 42,
+  "split": "/data2/tangyangpu/WorkSpace/RS/datasets/vaihingenR/test",
+  "best_epoch": 12,
+  "best_attempt": 1,
+  "best_checkpoint": "/data2/tangyangpu/WorkSpace/RS/model/best/c10_dino_base/experiments/vaihingen_ablation/no_exchange/best_model.pth",
+  "smoke": false,
+  "checkpoint_sha256": "a1c19c8144057c132a23e84b96b97cdb10f70cd3a36623f72c3b63a747cb6079",
+  "image_ids_sha256": "79a74fca9b36eec927d1bea75e7d6459a838fd45f89e853ae53409f41f5320dc"
+}

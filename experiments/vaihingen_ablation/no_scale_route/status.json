@@ -1,0 +1,208 @@
+{
+  "model": "c10_dino_base",
+  "ablation": "no_scale_route",
+  "status": "completed",
+  "epoch": 105,
+  "best_val_miou": 0.8602164917349476,
+  "best_epoch": 38,
+  "best_checkpoint": "/data2/tangyangpu/WorkSpace/RS/model/best/c10_dino_base/experiments/vaihingen_ablation/no_scale_route/best_model.pth",
+  "tta": {
+    "OA": 0.9411761862876682,
+    "mIoU": 0.8652101453152247,
+    "mF1": 0.9261555136880439,
+    "mDice": 0.9261555136880439,
+    "mPrecision": 0.9232052954430339,
+    "mRecall": 0.9292081018824453,
+    "mAcc": 0.9292081018824453,
+    "mIoU6": 0.7959104711143917,
+    "mF1_6": 0.8751512929803207,
+    "FWIoU": 0.8918124403710495,
+    "Kappa": 0.9151207747461355,
+    "confusion_matrix": [
+      [
+        49585017,
+        297606,
+        864654,
+        152579,
+        55905,
+        4930
+      ],
+      [
+        497444,
+        21175035,
+        234360,
+        34089,
+        6218,
+        2262
+      ],
+      [
+        564473,
+        122951,
+        14911663,
+        1762794,
+        2536,
+        6368
+      ],
+      [
+        147820,
+        20881,
+        1275794,
+        17065496,
+        911,
+        1196
+      ],
+      [
+        44839,
+        9005,
+        980,
+        1195,
+        738182,
+        1232
+      ],
+      [
+        227259,
+        133888,
+        6252,
+        1316,
+        5410,
+        318426
+      ]
+    ],
+    "per_class": [
+      {
+        "name": "ImSurf",
+        "IoU": 0.945511606363126,
+        "F1": 0.9719927686585572,
+        "Dice": 0.9719927686585572,
+        "Precision": 0.9709824486537765,
+        "Recall": 0.9730051933557965,
+        "support": 50960691
+      },
+      {
+        "name": "Building",
+        "IoU": 0.9397035707212195,
+        "F1": 0.9689146165481558,
+        "Dice": 0.9689146165481558,
+        "Precision": 0.9731457708832142,
+        "Recall": 0.9647200963233268,
+        "support": 21949408
+      },
+      {
+        "name": "LowVeg",
+        "IoU": 0.7549129301758103,
+        "F1": 0.8603423192057532,
+        "Dice": 0.8603423192057532,
+        "Precision": 0.8622596907093871,
+        "Recall": 0.858433455943413,
+        "support": 17370785
+      },
+      {
+        "name": "Tree",
+        "IoU": 0.8339247845651043,
+        "F1": 0.9094427335119534,
+        "Dice": 0.9094427335119534,
+        "Precision": 0.8973589492902552,
+        "Recall": 0.9218563989883805,
+        "support": 18512098
+      },
+      {
+        "name": "Car",
+        "IoU": 0.8519978347508637,
+        "F1": 0.9200851305158,
+        "Dice": 0.9200851305158,
+        "Precision": 0.9122796176785366,
+        "Recall": 0.9280253648013095,
+        "support": 795433
+      },
+      {
+        "name": "Clutter",
+        "IoU": 0.4494121001102268,
+        "F1": 0.6201301894417044,
+        "Dice": 0.6201301894417044,
+        "Precision": 0.952190996788412,
+        "Recall": 0.45978707705280913,
+        "support": 692551
+      }
+    ],
+    "evaluation_seconds": 271.5753306224942,
+    "images_per_second": 0.41609081259695374,
+    "milliseconds_per_image": 2403.321509933577,
+    "peak_cuda_memory_mib": 1328.28173828125,
+    "images": 113,
+    "transforms": 24,
+    "scales": [
+      0.75,
+      1.0,
+      1.5
+    ],
+    "merge": "mean logits",
+    "macro_classes": [
+      "ImSurf",
+      "Building",
+      "LowVeg",
+      "Tree",
+      "Car"
+    ],
+    "ignore_label": 6,
+    "saved_prediction_images": false,
+    "prediction_directory": null,
+    "prediction_format": null,
+    "model": "c10_dino_base",
+    "ablation": "no_scale_route",
+    "seed": 42,
+    "split": "/data2/tangyangpu/WorkSpace/RS/datasets/vaihingenR/test",
+    "best_epoch": 38,
+    "best_attempt": 1,
+    "best_checkpoint": "/data2/tangyangpu/WorkSpace/RS/model/best/c10_dino_base/experiments/vaihingen_ablation/no_scale_route/best_model.pth",
+    "smoke": false,
+    "checkpoint_sha256": "c0f7694992790016816e43ede1d7af2bc26199a28cd8d9efff7db3fb670c557a",
+    "image_ids_sha256": "79a74fca9b36eec927d1bea75e7d6459a838fd45f89e853ae53409f41f5320dc"
+  },
+  "gpu": "6",
+  "attempt": 1,
+  "smoke": false,
+  "started_at": "2026-10-08T08:10:17+00:00",
+  "pid": 61378,
+  "updated_at": "2026-10-08T10:57:00+00:00",
+  "parameters": 89390713,
+  "trainable_parameters": 89390713,
+  "backbone": "dino_base",
+  "pretrained_path": "/data2/tangyangpu/WorkSpace/RS/pretrained/round12/convnext_base.dinov3_lvd1689m/model.safetensors",
+  "train_images": 741,
+  "val_images": 113,
+  "step": 180,
+  "total_steps": 185,
+  "train_loss": 0.8221903185586672,
+  "best_attempt": 1,
+  "best_metrics": {
+    "val_miou": 0.8602164917349476,
+    "val_miou6": 0.7922833737429986,
+    "val_f1": 0.9232152691045844,
+    "val_oa": 0.9389475605427685,
+    "per_class_iou": [
+      0.9426532329931772,
+      0.9356151621673715,
+      0.7486973650290975,
+      0.8293815799084511,
+      0.8447351185766414,
+      0.45261778378325285
+    ]
+  },
+  "val_miou": 0.8526293863497537,
+  "val_miou6": 0.7817193316603229,
+  "val_f1": 0.9186121690458122,
+  "val_oa": 0.9365372080618155,
+  "per_class_iou": [
+    0.9416891164612232,
+    0.9329180267030583,
+    0.7381681347849665,
+    0.8215338534298345,
+    0.8288378003696858,
+    0.42716905821316875
+  ],
+  "epoch_seconds": 92.91393179446459,
+  "training_completed": true,
+  "tta_images": 113,
+  "tta_batches": 113,
+  "finished_at": "2026-10-08T10:57:00+00:00"
+}
