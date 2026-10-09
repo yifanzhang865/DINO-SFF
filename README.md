@@ -33,6 +33,8 @@ Experiment orchestration scripts retain original machine paths for provenance; p
 
 Repository: https://github.com/yifanzhang865/DINO-SFF
 
+Fixed code version: [v1.0.0](https://github.com/yifanzhang865/DINO-SFF/tree/v1.0.0).
+
 Cite the exact code version used in your work. GitHub's citation metadata is provided in [CITATION.cff](CITATION.cff); it describes this software repository, not an associated published paper.
 
 ```bibtex

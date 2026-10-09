@@ -30,3 +30,5 @@ https://huggingface.co/timm/convnext_tiny.dinov3_lvd1689m under its DINOv3
 license. The downloader retains the model card, license, configuration and
 pinned revision provenance alongside the verified weights. timm provides
 the ConvNeXt implementation; no gated Meta endpoint is bypassed.
+
+A copy of the upstream DINOv3 agreement is included at `third_party/DINOv3_LICENSE.md`. It was retrieved from the official facebookresearch/dinov3 repository.
